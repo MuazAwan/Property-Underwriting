@@ -14,11 +14,7 @@ import streamlit as st
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 openai.api_key = OPENAI_API_KEY
-'''
-# Load environment variables
-load_dotenv(dotenv_path="H:\\Property UnderWriting\\.env")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-'''
+
 # Initialize session state for inputs
 basic_inputs = ["offer_price", "total_income", "total_expenses", "equity", "debt_service"]
 additional_inputs = [
