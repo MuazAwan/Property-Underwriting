@@ -6,3 +6,6 @@ matplotlib
 plotly
 openpyxl
 python-dotenv
+fpdf
+reportlab
+pillow
